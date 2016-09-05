@@ -115,6 +115,7 @@ font-family: 'Open Sans', sans-serif;*/
     font-family: 'Special Elite', cursive;
     line-height: 2em;
     padding: 5px;
+    color: #efefef;
   }
 
   .mobilebox1::before {
@@ -128,8 +129,39 @@ font-family: 'Open Sans', sans-serif;*/
 
   }
 
+  .mobilebox1::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    bottom: 10px; right: 10px;
+    border-radius: 50px;
+    background-color: red;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+
+  @keyframes blink {
+    0%   {background-color: red;}
+    
+    100% {background-color: transparent;}
     
   } 
+
+
+  .gridcon {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+  }
+
+  .col1 {
+
+  }
+
 
   /* Mobile media end*/
 
