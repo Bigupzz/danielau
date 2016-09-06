@@ -134,7 +134,7 @@ font-family: 'Open Sans', sans-serif;*/
     position: absolute;
     width: 10px;
     height: 10px;
-    border: 1px solid black;
+    border: .5px solid #efefef;
     bottom: 10px; right: 10px;
     border-radius: 50px;
     background-color: red;
@@ -209,14 +209,23 @@ font-family: 'Open Sans', sans-serif;*/
 
  }
 
+ #contact {
+  width: 38%;
+  margin: 0 auto 0 auto;
+ }
+
+ .mailphone {
+  height: 45px;
+  width: 45px;
+ }
+
   footer img{
     height: 60px;
     width: 60px;
     margin: 10px 5px 0 5px;
-    
-
-
   }
+
+
 
 
   /* Mobile media end*/
