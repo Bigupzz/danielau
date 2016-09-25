@@ -249,12 +249,17 @@ font-family: 'Open Sans', sans-serif;*/
 .col2 {
   float:none;
   margin: 0 auto 0 auto;
-  width: 80%;
+  width: 95%;
 }
 
 .colbox {
   height: 150px;
 
+}
+
+#headerwrap {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 }
