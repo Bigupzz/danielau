@@ -89,17 +89,15 @@ font-family: 'Open Sans', sans-serif;*/
 
 
 
-  #contentwrap {
-    
-  }
+ 
 
   .mobilebox1 {
     position: relative;
     width: 90%;
     height: 400px;
     border: 2px solid black;
-    margin: 0 auto 0 auto;
-    margin-top: 20px;
+    margin: 20px auto 0 auto;
+    
     border-radius: 0 0 0 20px;
     background: hsla(232, 11%,7%,0.39);
     -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.75);
@@ -177,11 +175,11 @@ font-family: 'Open Sans', sans-serif;*/
 
   }
 
-  .clearfix:after {
+  #contentwrap:after {
      visibility: hidden;
      display: block;
      font-size: 0;
-     content: " ";
+     content: "";
      clear: both;
      height: 0;
      }
@@ -200,11 +198,10 @@ font-family: 'Open Sans', sans-serif;*/
 
 
   footer {
+
     width: 100%;
     margin-top: 10px;
     background: hsla(232, 11%,7%,0.5);
-    height: 100%;
-
   }
 
  #socwrap {
@@ -233,11 +230,7 @@ font-family: 'Open Sans', sans-serif;*/
   width: 45px;
  }
 
-  footer img{
-    height: 60px;
-    width: 60px;
-  }
-
+ 
 
 /*mobile to tablet*/
 
@@ -270,4 +263,52 @@ font-family: 'Open Sans', sans-serif;*/
 
 /******************************mobile to tablet end*********************/
 
+/*tablet to desktop*/
+
+
+@media only screen and (min-width: 1000px){
+
+
+#headerwrap {
+  max-width: 1200px;
+}
+
+.mobilebox1 {
+  width: 35%;
+  margin: 20px 0 0 20px;
+  float:left;
+}
+
+#gridcon {
+  float:right;
+  width: 60%;
+}
+
+.col1{
+  float:left;
+  width: 30%;
+}
+
+.col2 {
+  float:right;
+  width: 30%;
+}
+
+#gridcon {
+
+    
+    margin: 0 auto 0 auto;
+    /*border: 1px solid black;*/
+  }
+
+#contentwrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+}
 
