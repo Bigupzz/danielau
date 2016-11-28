@@ -199,14 +199,22 @@ font-family: 'Open Sans', sans-serif;*/
     color: #efefef;
   }
 
+
+
  /*content box images*/
 
   .airf {
+
     background-image: url("../images/containerair.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    color: black;
+    text-align: center;
   }
+
+  
+
 
   /*****content box image end****/
 
@@ -216,6 +224,7 @@ font-family: 'Open Sans', sans-serif;*/
     position: relative;
   }
 
+
   .overlay:after{
     position: absolute;
     content: "";
@@ -223,13 +232,15 @@ font-family: 'Open Sans', sans-serif;*/
     width:100%;
     height:100%;
     opacity:0;
+    font-family: 'Special Elite', cursive;
   }
 
   .overlay:hover:after {
-    opacity: .5;
+    opacity: 1;
+
 }
   .purple:after{
-    background-color: #7F3FBF;
+    background-color: hsla(286, 50%, 50%, 0.41);
   }
 
   /******content box overlay end*****/
